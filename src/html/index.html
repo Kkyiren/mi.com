@@ -7,11 +7,21 @@
     <title>Document</title>
 </head>
 <link rel="stylesheet" href="../styles/index.css">
+<link rel="stylesheet" href="../font/iconfont.css">
+<!-- <link rel="stylesheet" href="../font2/iconfont.css"> -->
 
 <body>
     <div class="headimg"></div>
     <div class="bg">
         <div class="nav">
+            <div class="nav-right" id="nav-right">
+                <a href="./login.html">登录</a><span>|</span>
+                <a href="./register.html">注册</a><span>|</span>
+                <a href="javascript:;">消息通知</a>
+                <a href="javascript:;">
+                    <span class="iconfont icon-003gouwuche"></span> 购物车(0)
+                </a>
+            </div>
             <div class="nav-left">
                 <a href="javascript:;">小米商城</a><span>|</span>
                 <a href="javascript:;">MIUI</a><span>|</span>
@@ -23,66 +33,1096 @@
                 <a href="javascript:;">企业团购</a><span>|</span>
                 <a href="javascript:;">资质证照</a><span>|</span>
                 <a href="javascript:;">协议规则</a><span>|</span>
-                <a href="javascript:;">下载app</a><span>|</span>
+                <a href="javascript:;">下载app
+                    <span>
+                        <img class="lazy" data-original="../img/appdownload.png" alt="">
+                        小米商城APP
+                    </span>
+                </a><span>|</span>
                 <a href="javascript:;">智能生活</a><span>|</span>
                 <a href="javascript:;">Select Location</a>
             </div>
-            <div class="nav-right">
-                <a href="javascript:;">登录</a><span>|</span>
-                <a href="javascript:;">注册</a><span>|</span>
+            <div class="nav-logined" id="nav-logined">
+                <a href="javascript:;" id="users"></a><span>|</span>
+                <a href="javascript:;">我的订单</a><span>|</span>
                 <a href="javascript:;">消息通知</a>
-                <a href="javascript:;">购物车(0)</a>
+                <a href="javascript:;">
+                    <span class="iconfont icon-003gouwuche"></span> 购物车(0)
+                </a>
             </div>
         </div>
     </div>
     <div class="container">
-        <a href="javascript:;">
-            <div class="logoSlider">
-                <img src="../img/mi-logo.png" alt="">
-                <img src="../img/mi-home.png" alt="">
+        <div class="containercenter">
+            <a href="./index.html">
+                <div class="logoSlider">
+                    <img src="../img/mi-logo.png" alt="小米官网">
+                    <img src="../img/mi-home.png" alt="小米官网">
+                </div>
+            </a>
+            <li class="whitespace"></li>
+
+
+            <ul class="bar" id="secondery">
+                <li class="firstbar sec">
+                    <a href="javascript:;">
+                        <span>小米手机</span>
+                    </a>
+                </li>
+                <li class="firstbar sec">
+                    <a href="javascript:;">
+                        <span>Redmi红米</span>
+                    </a>
+
+                </li>
+                <li class="firstbar sec">
+                    <a href="javascript:;">
+                        <span>电视</span>
+                    </a>
+
+                </li>
+                <li class="firstbar sec">
+                    <a href="javascript:;">
+                        <span>笔记本</span>
+                    </a>
+
+                </li>
+                <li class="firstbar sec">
+                    <a href="javascript:;">
+                        <span>家电</span>
+                    </a>
+
+                </li>
+                <li class="firstbar sec">
+                    <a href="javascript:;">
+                        <span>路由器</span>
+                    </a>
+
+                </li>
+                <li class="firstbar sec">
+                    <a href="javascript:;">
+                        <span>智能硬件</span>
+                    </a>
+                </li>
+                <div class="submenu">
+                    <div class="menubody hide">
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                    </div>
+                    <div class="menubody hide">
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                    </div>
+                    <div class="menubody hide">
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                    </div>
+                    <div class="menubody hide">
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                    </div>
+                    <div class="menubody hide">
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                    </div>
+                    <div class="menubody hide">
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                    </div>
+                    <div class="menubody hide">
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                        <a href="">
+                            <img src="../img/laptop.png" alt="">
+                            <div class="productname">Pro 15.6" 2020款</div>
+                            <p class="productprice">5999元起</p>
+                        </a>
+                    </div>
+                </div>
+            </ul>
+            <ul class="nosec">
+                <li class="firstbar">
+                    <a href="javascript:;">
+                        <span>服务</span>
+                    </a>
+                </li>
+                <li class="firstbar">
+                    <a href="javascript:;">
+                        <span>社区</span>
+                    </a>
+                </li>
+            </ul>
+            <input type="text" placeholder="空调" id="placeholder">
+            <div class="search">
+                <span class="iconfont icon-fangdajing"></span>
             </div>
-        </a>
-        <ul class="bar">
-            <li></li>
-            <li>
-                <a href="javascript:;"><span>小米手机</span></a>
-                <a href="javascript:;"><span>Redmi红米</span></a>
-                <a href="javascript:;"><span>电视</span></a>
-                <a href="javascript:;"><span>笔记本</span></a>
-                <a href="javascript:;"><span>家电</span></a>
-                <a href="javascript:;"><span>路由器</span></a>
-                <a href="javascript:;"><span>智能硬件</span></a>
-                <a href="javascript:;"><span>服务</span></a>
-                <a href="javascript:;"><span>社区</span></a>
-            </li>
-        </ul>
-        <input type="text" placeholder="空调">
-        <input type="text">
+        </div>
     </div>
     <div class="main">
         <div class="slider">
+            <div class="sliderbox">
+                <div class="sliderbody" id="sliderbody">
+                    <a href="">
+                        <img src="../img/slider-2.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../img/slider-3.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../img/slider-4.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../img/slider-5.jpg" alt="">
+                    </a>
+                    <a href="">
+                        <img src="../img/slider-1.jpg" alt="">
+                    </a>
+                </div>
+                <div class="sliderindex" id="sliderindex">
+                    <li class="bgc"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                </div>
+                <span class="pre"></span>
+                <span class="next"></span>
+            </div>
             <ul class="navl">
-                <li><a href="javascript:;">手机&nbsp;电话卡</a></li>
-                <li><a href="javascript:;">电视&nbsp;盒子</a></li>
-                <li><a href="javascript:;">笔记本&nbsp;显示器</a></li>
-                <li><a href="javascript:;">家电&nbsp;插线板</a></li>
-                <li><a href="javascript:;">出行&nbsp;穿戴</a></li>
-                <li><a href="javascript:;">智能&nbsp;路由器</a></li>
-                <li><a href="javascript:;">电源&nbsp;配件</a></li>
-                <li><a href="javascript:;">健康&nbsp;儿童</a></li>
-                <li><a href="javascript:;">耳机&nbsp;音箱</a></li>
-                <li><a href="javascript:;">生活&nbsp;箱包</a></li>
+                <li>
+                    <a href="javascript:;">手机&nbsp;电话卡  
+                                <span class="iconfont icon-turnright_big"></span>
+                            </a>
+                    <div class="secondary" style="width: 992px;">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">电视&nbsp;盒子
+                                <span class="iconfont icon-turnright_big"></span>
+                            </a>
+                    <div class="secondary" style="width:744px;">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+
+                </li>
+                <li>
+                    <a href="javascript:;">笔记本&nbsp;显示器
+                                <span class="iconfont icon-turnright_big"></span>
+                            </a>
+                    <div class="secondary" style="width:992px">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">家电&nbsp;插线板
+                                <span class="iconfont icon-turnright_big"></span>
+                            </a>
+                    <div class="secondary">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">出行&nbsp;穿戴
+                                <span class="iconfont icon-turnright_big"></span>
+                            </a>
+                    <div class="secondary">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">智能&nbsp;路由器
+                                <span class="iconfont icon-turnright_big"></span>
+                            </a>
+                    <div class="secondary">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">电源&nbsp;配件
+                                <span class="iconfont icon-turnright_big"></span>
+                            </a>
+                    <div class="secondary">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">健康&nbsp;儿童
+                                <span class="iconfont icon-turnright_big"></span>
+                            </a>
+                    <div class="secondary">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">耳机&nbsp;音箱
+                                <span class="iconfont icon-turnright_big"></span>
+                            </a>
+                    <div class="secondary">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
+                <li>
+                    <a href="javascript:;">生活&nbsp;箱包
+                                <span class="iconfont icon-turnright_big"></span>
+                            </a>
+                    <div class="secondary">
+                        <ul>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="">
+                                    <img src="../img/phoneshow.jpg" alt="">
+                                    <span>小米10 至尊纪念版</span>
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </li>
             </ul>
-            <div class="pre"></div>
-            <div class="next"></div>
         </div>
         <div>
-            <li><a href="javascript:;">小米秒杀</a></li>
-            <li><a href="javascript:;">企业团购</a></li>
-            <li><a href="javascript:;">F码通道</a></li>
-            <li><a href="javascript:;">米粉卡</a></li>
-            <li><a href="javascript:;">以旧换新</a></li>
-            <li><a href="javascript:;">话费充值</a></li>
+            <li>
+                <a href="javascript:;">
+                    <img class="lazy" data-original="../img/miseconds.png" alt=""> 小米秒杀
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img class="lazy" data-original="../img/mibuilding.png" alt=""> 企业团购
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img class="lazy" data-original="../img/minum.png" alt=""> F码通道
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img class="lazy" data-original="../img/micard.png" alt=""> 米粉卡
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img class="lazy" data-original="../img/miexchange.png" alt=""> 以旧换新
+                </a>
+            </li>
+            <li>
+                <a href="javascript:;">
+                    <img class="lazy" data-original="../img/mimoney.png" alt=""> 话费充值
+                </a>
+            </li>
         </div>
         <div class="news">
             <a href="javascript:;"><img src="../img/news-1.jpg" alt=""></a>
@@ -97,16 +1137,31 @@
 
     <div class="product">
         <div class="shopadv">
+            <ul class="arrowdirection">
+                <li>
+                    <span class="iconfont icon-turnleft_bigx"></span>
+                </li>
+                <li>
+                    <span class="iconfont icon-turnright_big"></span>
+                </li>
+            </ul>
             <h2 class="title">小米闪购</h2>
-            <div>
-                <span></span>
-                <span></span>
+            <div class="shopping fastshop">
+                <div class="round">00:00&nbsp;场</div>
+                <img class="lazy" data-original="../img/fastshop.jpg" alt="小米闪购">
+                <div class="endcount">距离结束还有</div>
+                <div class="actutime">
+                    <span>07</span>
+                    <i>:</i>
+                    <span>18</span>
+                    <i>:</i>
+                    <span>58</span>
+                </div>
             </div>
-            <div class="shopping"></div>
             <!--倒计时-->
             <div class="shopping">
                 <a href="javascript:;">
-                    <img src="../img/shopping-1.jpg" alt="">
+                    <img class="lazy" data-original="../img/shopping-1.jpg" alt="">
                     <h3>日常元素抽纸&nbsp;青春版&nbsp;24包/箱</h3>
                     <p>精选原生竹浆，健康环保</p>
                     <p>
@@ -117,7 +1172,7 @@
             </div>
             <div class="shopping">
                 <a href="javascript:;">
-                    <img src="../img/shopping-2.jpg" alt="">
+                    <img class="lazy" data-original="../img/shopping-2.jpg" alt="">
                     <h3>日常元素抽纸&nbsp;青春版&nbsp;24包/箱</h3>
                     <p>精选原生竹浆，健康环保</p>
                     <p>
@@ -128,7 +1183,7 @@
             </div>
             <div class="shopping">
                 <a href="javascript:;">
-                    <img src="../img/shopping-3.jpg" alt="">
+                    <img class="lazy" data-original="../img/shopping-3.jpg" alt="">
                     <h3>日常元素抽纸&nbsp;青春版&nbsp;24包/箱</h3>
                     <p>精选原生竹浆，健康环保</p>
                     <p>
@@ -139,7 +1194,7 @@
             </div>
             <div class="shopping">
                 <a href="javascript:;">
-                    <img src="../img/shopping-4.jpg" alt="">
+                    <img class="lazy" data-original="../img/shopping-4.jpg" alt="">
                     <h3>日常元素抽纸&nbsp;青春版&nbsp;24包/箱</h3>
                     <p>精选原生竹浆，健康环保</p>
                     <p>
@@ -156,94 +1211,16 @@
     </div>
 
     <div class="phone">
-        <div class="phoneadv">
+        <div class="phoneadv" id="actload">
             <h2 class="title">手机</h2>
             <div class="checkall">
-                <p>查看全部</p>
+                <p>
+                    查看全部
+                    <span class="iconfont icon-turnright_big"></span>
+                </p>
             </div>
             <div class="long">
                 <a href=""><img src="../img/mialpha.jpg" alt=""></a>
-            </div>
-
-            <div class="phoneshort">
-                <a href="javascript:;">
-                    <img src="../img/phone.jpg" alt="">
-                    <h3>小米10&nbsp;至尊版</h3>
-                    <p>120X 变焦/120W秒充/120Hz屏幕</p>
-                    <p>
-                        <span>5299元起</span>
-                    </p>
-                </a>
-            </div>
-            <div class="phoneshort">
-                <a href="javascript:;">
-                    <img src="../img/phone.jpg" alt="">
-                    <h3>小米10&nbsp;至尊版</h3>
-                    <p>120X 变焦/120W秒充/120Hz屏幕</p>
-                    <p>
-                        <span>5299元起</span>
-                    </p>
-                </a>
-            </div>
-            <div class="phoneshort">
-                <a href="javascript:;">
-                    <img src="../img/phone.jpg" alt="">
-                    <h3>小米10&nbsp;至尊版</h3>
-                    <p>120X 变焦/120W秒充/120Hz屏幕</p>
-                    <p>
-                        <span>5299元起</span>
-                    </p>
-                </a>
-            </div>
-            <div class="phoneshort">
-                <a href="javascript:;">
-                    <img src="../img/phone.jpg" alt="">
-                    <h3>小米10&nbsp;至尊版</h3>
-                    <p>120X 变焦/120W秒充/120Hz屏幕</p>
-                    <p>
-                        <span>5299元起</span>
-                    </p>
-                </a>
-            </div>
-            <div class="phoneshort">
-                <a href="javascript:;">
-                    <img src="../img/phone.jpg" alt="">
-                    <h3>小米10&nbsp;至尊版</h3>
-                    <p>120X 变焦/120W秒充/120Hz屏幕</p>
-                    <p>
-                        <span>5299元起</span>
-                    </p>
-                </a>
-            </div>
-            <div class="phoneshort">
-                <a href="javascript:;">
-                    <img src="../img/phone.jpg" alt="">
-                    <h3>小米10&nbsp;至尊版</h3>
-                    <p>120X 变焦/120W秒充/120Hz屏幕</p>
-                    <p>
-                        <span>5299元起</span>
-                    </p>
-                </a>
-            </div>
-            <div class="phoneshort">
-                <a href="javascript:;">
-                    <img src="../img/phone.jpg" alt="">
-                    <h3>小米10&nbsp;至尊版</h3>
-                    <p>120X 变焦/120W秒充/120Hz屏幕</p>
-                    <p>
-                        <span>5299元起</span>
-                    </p>
-                </a>
-            </div>
-            <div class="phoneshort">
-                <a href="javascript:;">
-                    <img src="../img/phone.jpg" alt="">
-                    <h3>小米10&nbsp;至尊版</h3>
-                    <p>120X 变焦/120W秒充/120Hz屏幕</p>
-                    <p>
-                        <span>5299元起</span>
-                    </p>
-                </a>
             </div>
         </div>
     </div>
@@ -263,12 +1240,12 @@
             </div>
             <div class="short first">
                 <a href="javascript:;">
-                    <img src="../img/start.jpg" alt="">
+                    <img class="lazy" data-original="../img/start.jpg" alt="">
                 </a>
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -278,7 +1255,7 @@
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -288,7 +1265,7 @@
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -298,7 +1275,7 @@
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -308,12 +1285,12 @@
             </div>
             <div class="short first">
                 <a href="javascript:;">
-                    <img src="../img/start.jpg" alt="">
+                    <img class="lazy" data-original="../img/start.jpg" alt="">
                 </a>
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -323,7 +1300,7 @@
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -333,7 +1310,7 @@
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -350,7 +1327,7 @@
                             <span>5299元起</span>
                         </p>
                     </div>
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                 </a>
                 <a href="javascript:;">
                     <div class="shleft">
@@ -359,7 +1336,7 @@
                             热门
                         </p>
                     </div>
-                    <img src="../img/tv.jpg" alt="">
+                    <span class="iconfont icon-circle-arrow-right"></span>
                 </a>
             </div>
         </div>
@@ -380,12 +1357,12 @@
             </div>
             <div class="short first">
                 <a href="javascript:;">
-                    <img src="../img/start.jpg" alt="">
+                    <img class="lazy" data-original="../img/start.jpg" alt="">
                 </a>
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -395,7 +1372,7 @@
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -405,7 +1382,7 @@
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -415,7 +1392,7 @@
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -425,12 +1402,12 @@
             </div>
             <div class="short first">
                 <a href="javascript:;">
-                    <img src="../img/start.jpg" alt="">
+                    <img class="lazy" data-original="../img/start.jpg" alt="">
                 </a>
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -440,7 +1417,7 @@
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -450,7 +1427,7 @@
             </div>
             <div class="short">
                 <a href="javascript:;">
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                     <h3>小米10&nbsp;至尊版</h3>
                     <p>120X 变焦/120W秒充/120Hz屏幕</p>
                     <p>
@@ -467,7 +1444,7 @@
                             <span>5299元起</span>
                         </p>
                     </div>
-                    <img src="../img/tv.jpg" alt="">
+                    <img class="lazy" data-original="../img/tv.jpg" alt="">
                 </a>
                 <a href="javascript:;">
                     <div class="shleft">
@@ -476,7 +1453,7 @@
                             热门
                         </p>
                     </div>
-                    <img src="../img/tv.jpg" alt="">
+                    <span class="iconfont icon-circle-arrow-right"></span>
                 </a>
             </div>
         </div>
@@ -487,19 +1464,29 @@
     <footer>
         <ul class="service">
             <li>
-                <a href=""></a>预约维修服务</a>
+                <a href="">
+                    <span class="iconfont icon-xiufu"></span>预约维修服务
+                </a>
             </li>
             <li>
-                <a href=""></a>7天无理由退货</a>
+                <a href="">
+                    <span class="iconfont icon-tian1"></span>7天无理由退货
+                </a>
             </li>
             <li>
-                <a href=""></a>15天免费换货</a>
+                <a href="">
+                    <span class="iconfont icon-tian"></span>15天免费换货
+                </a>
             </li>
             <li>
-                <a href=""></a>满99元包邮</a>
+                <a href="">
+                    <span class="iconfont icon-gift"></span>满99元包邮
+                </a>
             </li>
             <li>
-                <a href=""></a>520余家售后网点</a>
+                <a href="">
+                    <span class="iconfont icon-dizhi"></span>520余家售后网点
+                </a>
             </li>
         </ul>
         <div class="foot">
@@ -561,15 +1548,23 @@
             <div class="ask">
                 <h1>400-100-5678</h1>
                 <p>8:00-18:00(仅收市话费)</p>
-                <span>人工客服</span>
-                <p>关注小米:</p>
+                <a>
+                    <span class="iconfont icon-message"></span> 人工客服
+                </a>
+                <div>
+                    关注小米:
+                    <div>
+                        <span class="iconfont icon-xinlang"></span>
+                        <span class="iconfont icon-weixin"></span>
+                    </div>
+                </div>
             </div>
         </div>
     </footer>
     <div class="about">
         <div class="contain">
             <div class="logo">
-                <img src="../img/logo-footer.png" alt="">
+                <img class="lazy" data-original="../img/logo-footer.png" alt="">
             </div>
             <ul>
                 <li><a href="">小米商城</a></li>
@@ -628,15 +1623,44 @@
                 本网站所列数据，除特殊说明，所有数据均出自我司实验室测试
             </div>
 
-            <a href=""><img src="../img/truste-1.png" alt=""></a>
-            <a href=""><img src="../img/truste-2.png" alt=""></a>
-            <a href=""><img src="../img/truste-3.png" alt=""></a>
-            <a href=""><img src="../img/truste-4.png" alt=""></a>
-            <a href=""><img src="../img/truste-5.png" alt="" class="lastImg"></a>
+            <a href=""><img class="lazy" data-original="../img/truste-1.png" alt=""></a>
+            <a href=""><img class="lazy" data-original="../img/truste-2.png" alt=""></a>
+            <a href=""><img class="lazy" data-original="../img/truste-3.png" alt=""></a>
+            <a href=""><img class="lazy" data-original="../img/truste-4.png" alt=""></a>
+            <a href=""><img class="lazy" data-original="../img/truste-5.png" alt="" class="lastImg"></a>
         </div>
 
-        <div class="end"><img src="../img/finish.png" alt=""></div>
+        <div class="end"><img class="lazy" data-original="../img/finish.png" alt=""></div>
     </div>
+    <div id="stairs">
+        <a href="">
+            <span class="iconfont icon-shouji"></span>
+            <p>手机APP</p>
+        </a>
+        <a href="">
+            <span class="iconfont icon-wodedangxuan"></span>
+            <p>个人中心</p>
+        </a>
+        <a href="">
+            <span class="iconfont icon-weixiu"></span>
+            <p>售后服务</p>
+        </a>
+        <a href="">
+            <span class="iconfont icon-ermai"></span>
+            <p>人工客服</p>
+        </a>
+        <a href="./shopcar.html">
+            <span class="iconfont icon-gouwuche"></span>
+            <p>购物车</p>
+        </a>
+        <a href="javascript:;">
+            <span class="iconfont icon-fanhuidingbu"></span>
+            <p>返回顶部</p>
+        </a>
+    </div>
+    <script src="../js/library/jquery.js" type="module"></script>
+    <script src="../js/index.js" type="module"></script>
+    <!-- <script src="../js/slider.js" type="module"></script> -->
 </body>
 
 </html>

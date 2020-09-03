@@ -1,0 +1,130 @@
+@charset "utf-8";
+* {
+  margin: 0;
+  padding: 0;
+}
+body,
+html {
+  height: 70%;
+  padding-top: 30px;
+  background: #f9f9f9;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.wrap {
+  width: 854px;
+  height: 640px;
+  margin: 0 auto;
+}
+.wrap > .reg {
+  width: 786px;
+  min-height: 450px;
+  background: #fff;
+  padding: 30px 34px;
+  margin-bottom: 10px;
+}
+.wrap > .reg > .username,
+.wrap > .reg .psw,
+.wrap > .reg .cpsw {
+  width: 332px;
+  height: 40px;
+  float: left;
+  font-size: 16px;
+  line-height: 40px;
+  margin-top: 30px;
+  margin-left: 240px;
+  outline: none;
+}
+.wrap > .reg > span {
+  height: 44px;
+  top: 0;
+  left: 0;
+  margin-top: 30px;
+  margin-left: 10px;
+  float: left;
+  display: block;
+  color: red;
+}
+.wrap > .reg > .titleLogo {
+  width: 768px;
+  height: 48px;
+  padding-bottom: 40px;
+  margin: -30px auto 0;
+}
+.wrap > .reg > .titleLogo > a {
+  width: 49px;
+  height: 48px;
+  display: block;
+  margin: 0 auto;
+  background: url("../img/mi-logo.png") #ff6700;
+}
+.wrap > .reg > h1 {
+  color: #333333;
+  font-size: 30px;
+  font-weight: normal;
+  text-align: center;
+}
+.wrap > .reg > .submit {
+  width: 332px;
+  height: 42px;
+  font-size: 14px;
+  color: #fff;
+  background: #FF6700;
+  margin-top: 30px;
+  margin-left: 240px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  user-select: none;
+  transition: 0.2s;
+}
+.wrap > .reg > .submit:hover {
+  background: #ff936a;
+}
+.wrap > .regProtocol {
+  width: 100%;
+  text-align: center;
+  padding: 10px 0;
+}
+.wrap > .regProtocol > p {
+  color: #9D9D9D;
+  font-size: 14px;
+}
+.wrap > .regProtocol > p > a {
+  color: #333333;
+  font-weight: bold;
+}
+.wrap > .non-footer {
+  width: 100%;
+  text-align: center;
+  color: #9D9D9D;
+  margin-top: 10%;
+}
+.wrap > .non-footer > ul {
+  display: inline-block;
+  overflow: hidden;
+  font-size: 14px;
+}
+.wrap > .non-footer > ul > li {
+  color: #757575;
+  float: left;
+}
+.wrap > .non-footer > ul > li > a {
+  padding: 0 10px;
+  color: #757575;
+}
+.wrap > .non-footer > .police {
+  padding: 10px 0;
+}
+.wrap > .non-footer > .police > a {
+  color: #9D9D9D;
+  font-size: 14px;
+}
+.wrap > .non-footer > .police > img {
+  margin-left: -6px;
+  margin-right: -6px;
+}

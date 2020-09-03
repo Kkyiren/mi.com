@@ -1,0 +1,166 @@
+@charset "utf-8";
+a{
+    text-decoration: none;
+}
+ul,li{
+    list-style: none;
+}
+#active{
+    color: #ff6700;
+}
+.logintitle{
+    width: 1130px;
+    height: 98px;
+    margin: 0 auto;
+    >a{
+        display: block;
+        float: left;
+        >img{
+            width: 200px;
+            height: 98px;
+        }
+    }
+}
+.loginfield{
+    width: 100%;
+    height: 588px;
+    background: url("../img/loginbackground.jpg") center;
+    >.logincenter{
+        width: 1226px;
+        height: 588px;
+        overflow: hidden;
+        margin: 0 auto;
+        margin-top: 4px;
+        >.loginform{
+            width: 410px;
+            height: 590px;
+            margin-top: -2px;
+            color: #757575;
+            background: #fff;
+            float: right;
+            >.formhead{
+                height: 30px;
+                padding: 27px 0;
+                text-align: center;
+                >a{
+                    font-size: 24px;
+                }
+                >span{
+                   width: 1px;
+                   height: 24px;
+                   border: 1px solid #e0e0e0;
+                   margin: 0 35px 0 42px;
+                }
+            }
+           >.formcontent{
+                width: 346px;
+                margin: 0 auto;
+                >input{
+                    width: 318px;
+                    height: 18px;
+                    margin: 14px 0 0;
+                    font-size: 14px;
+                    border: 1px solid #e0e0e0;
+                    padding: 13px 16px 13px 14px;
+                    outline: none;
+                }
+                .formsub{
+                    width: 348px;
+                    height: 50px;
+                    padding-top: 10px;
+                    margin-top: 14px;
+                    margin-bottom: 14px;
+                    background: #ff6700;
+                    color:#fff;
+                    border: none;
+                    cursor: pointer;
+                }
+           }
+           >a{
+               width: 100%;
+               display: block;
+               font-size: 14px;
+               text-align: center;
+                margin-bottom:30px;
+               color: #ff6700;
+           }
+           >.rempass{
+               width: 100%;
+               color: #999999;
+               text-align: center;
+               font-size: 14px;
+               >a{
+                color: #999999;
+                transition: .2s;
+                &:hover{
+                    color: #ff6700;
+                }
+               }
+           }
+           >.field{
+                width: 100%;
+                padding: 170px 0 0;
+               >fieldset{
+                    width: 348px;
+                    height: 18.2px;
+                    margin: 0 auto;
+                    border: none;
+                    border-top: 1px solid#bbb;
+                   >legend{
+                       font-size: 14px;
+                       text-align: center;
+                       color: #999999;
+                       
+                   }
+                   >.loginicon{
+                       width: 348px;
+                       text-align: center;
+                       >a{
+                            display: block;
+                            float:left;
+                            margin: 0 17px;
+                            width: 30px;
+                            height: 30px;
+                            font-size: 34px;
+                            &:first-of-type{
+                                margin-left: 62px;
+                                margin-top: -5px;
+                                font-size: 40px;
+                            }
+                       }
+                   }
+               }
+           }
+        }
+    }
+}
+.non-footer{
+    width: 100%;
+    text-align: center;
+    color: #9D9D9D;
+    margin-top: 5%;
+    >ul{
+        display: inline-block;
+        overflow: hidden;
+        font-size: 14px;
+        >li{
+            color: #757575;
+            float: left;
+            >a{
+                padding: 0 10px;
+                color: #757575;
+            }
+        }
+    }
+    >.police{
+        padding: 10px 0;
+        >a{
+            color: #9D9D9D;
+            font-size: 14px;
+        }
+        >img{
+            margin-left: -6px;
+            margin-right: -6px;
+        }
+    }
+}
